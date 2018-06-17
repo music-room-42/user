@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  user:
+    build: .
+    volumes:
+       - type: bind
+         source: .
+         target: /app
+    ports:
+      - 8082:8082
