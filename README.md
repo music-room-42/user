@@ -8,11 +8,11 @@ User service for 42 school Music Room students project
 
 ### Development instructions
 
-Note [db_images](https://github.com/music-room-42/db_images) repo should be in the sibling directory to this project
+Note, [db_images](https://github.com/music-room-42/db_images) repo should be in the sibling directory to this project
 
 to launch the user service run:
 ```
-docker-compose -d up user
+docker-compose up -d user
 ```
 to run user service shell:
 ```
